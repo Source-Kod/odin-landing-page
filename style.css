@@ -9,7 +9,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #1F2937;
   padding: 5px;
@@ -18,4 +18,33 @@ body {
 .header a {
   color: white;
   text-decoration: none;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #1F2937;
+}
+
+.top_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_left p {
+  max-width: 500px;
+}
+
+.top_left button {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.top_right img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
 }
