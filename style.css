@@ -29,6 +29,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #1F2937;
+  color: #F9FAF8;
 }
 
 .top_left {
@@ -41,7 +42,7 @@ body {
 }
 
 .top_left button {
-  background-color: blue;
+  background-color: #3882F6;
   border-radius: 5px;
 }
 
@@ -88,6 +89,7 @@ body {
   flex-direction: column;
   width: 500px;
   margin: 0px auto;
+  background-color: #E5E7EB;
 }
 
 .bot_bot {
@@ -99,7 +101,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: darkblue;
+  background-color: #3882F6;
   border-radius: 10px;
   width: 800px;
   margin: 0px auto;
