@@ -26,8 +26,8 @@ body {
   justify-content: center;
   gap: 100px;
   align-items: center;
+  padding-bottom: 50px;
   padding-top: 20px;
-  padding-bottom: 20px;
   background-color: #1F2937;
   color: #F9FAF8;
 }
@@ -44,6 +44,9 @@ body {
 .top_left button {
   background-color: #3882F6;
   border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  width: 7em;
 }
 
 .top_right img {
@@ -56,6 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .mid img {
@@ -87,9 +91,15 @@ body {
 .bot {
   display: flex;
   flex-direction: column;
-  width: 500px;
   margin: 0px auto;
   background-color: #E5E7EB;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.bot_top {
+  width: 500px;
 }
 
 .bot_bot {
